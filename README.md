@@ -8,10 +8,9 @@ mvn package
 
 配置执行方法如下，即可测试4中trigger。
 
+```
 ckafka: example.Ckafka::mainHandler
-
 cmq: example.Cmq::mainHandler
-
 cos: example.Cos::mainHandler
-
 http: example.Http::mainHandler
+```
