@@ -6,7 +6,7 @@ mvn package
 ```
 上传target文件夹中scf-demo-java-1.0-SNAPSHOT.jar包。
 
-配置执行方法如下，即可测试4中trigger。
+配置执行方法如下，即可测试4个trigger。
 
 ```
 ckafka: example.Ckafka::mainHandler
